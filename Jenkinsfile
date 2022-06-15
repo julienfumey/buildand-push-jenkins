@@ -1,6 +1,6 @@
 node {
 
-   def registryProjet='quenec/'
+   def registryProjet='julienfumey/'
    def IMAGE="${registryProjet}app:version-${env.BUILD_ID}"
 
     stage('Clone') {
